@@ -19,10 +19,10 @@ function color(c) // pour changer la couleur d'un paragraphe en foncion ds diffe
 }
 
 //Afficher un massage a l'affiche de la page
-function load()
-{
-    alert('voila comment onload fonctionne')
-}
+// function load()
+// {
+//     alert('voila comment onload fonctionne')
+// }
 
 //comment déactiver un bouton
 function desactiver()
@@ -34,4 +34,11 @@ function desactiver()
 function activer()
 {
     document.getElementById("desa").disabled = false
+}
+
+// afficher une image dès l'ouverture de la page
+
+function imag()
+{
+    alert('Belle photo non ?')
 }
