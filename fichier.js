@@ -13,7 +13,9 @@ function colorBleu()   // pour mettre une couleur bleu dans le paragraphe anthel
     document.querySelector('#anthelme').style.color="blue";
 }
 
-function color(c) 
+function color(c) // pour changer la couleur d'un paragraphe en foncion ds differents boutons
 {
     document.querySelector('#nan').style.color=c;
 }
+
+//LES APPENDCHILD
