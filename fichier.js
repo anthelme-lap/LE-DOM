@@ -18,8 +18,20 @@ function color(c) // pour changer la couleur d'un paragraphe en foncion ds diffe
     document.querySelector('#nan').style.color=c;
 }
 
-//LES APPENDCHILD
+//Afficher un massage a l'affiche de la page
 function load()
 {
     alert('voila comment onload fonctionne')
+}
+
+//comment déactiver un bouton
+function desactiver()
+{
+    document.getElementById("desa").disabled = true
+}
+
+//comment activer un bouton id=desa 
+function activer()
+{
+    document.getElementById("desa").disabled = false
 }
