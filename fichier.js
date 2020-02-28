@@ -2,13 +2,18 @@ document.querySelector('#para').innerHTML="salut! Moi c'est anthelme et c'est ma
 document.querySelector('#para').style.color="blue"; // mettre le texte en couleur bleue
 // document.getElementById('bjr').innerHTML = document.getElementsByTagName('ul')[0]. innerHTML // afficher le menu dans le paragraphe
 
-function colorRouge()
+function colorRouge()  // pour mettre une couleur rouge dans le paragraphe parrainrouge au click du bouton  lorsque j'appelle la fonction dans le bouton
 {
     document.querySelector('#parain').style.color="red";
 }
 
 
-function colorBleu()
+function colorBleu()   // pour mettre une couleur bleu dans le paragraphe anthelme au click du bouton bleu lorsque j'appelle la fonction dans le bouton
 {
-    document.querySelector('#anthelme').style.color="bleu";
+    document.querySelector('#anthelme').style.color="blue";
+}
+
+function color(c) 
+{
+    document.querySelector('#nan').style.color=c;
 }
