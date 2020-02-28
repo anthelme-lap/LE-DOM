@@ -19,3 +19,7 @@ function color(c) // pour changer la couleur d'un paragraphe en foncion ds diffe
 }
 
 //LES APPENDCHILD
+function load()
+{
+    alert('voila comment onload fonctionne')
+}
