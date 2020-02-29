@@ -74,7 +74,22 @@
 //     va.value="NOM";
     
 // })
-
-
+var alum = false;
+let amp = document.getElementsByTagName('img')[0];
+var btn = document.getElementById('btn');
+btn.addEventListener('click', function()
+{   
+    if(!alum)
+    {
+        amp.setAttribute("src","images/pic_bulbon.gif")
+        alum = true;
+    }
+    else{
+        amp.setAttribute("src","images/pic_bulboff.gif")
+        alum = false;
+    }
+    
+}
+)
 
 
